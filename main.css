@@ -1,0 +1,653 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 100%;
+    width: 95%;
+}
+
+.logo {
+    margin-left: 98px;
+    margin-top: 23px;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+    margin-left: 961px;
+    margin-top: -24px;
+}
+
+.why {
+    font-family: nunito sans;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--yashil);
+}
+
+:root {
+    --yashil: rgba(11, 65, 65, 1);
+    --pushti: rgba(255, 204, 188, 1);
+}
+
+.skachat {
+    display: flex;
+    margin-left: 1179px;
+    margin-top: -30px;
+    width: 163px;
+    height: 46px;
+    background-color: var(--yashil);
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    color: var(--pushti);
+}
+
+.shrift {
+    background-image: url('./confettis\ \(1\).png');
+    margin-top: 200px;
+}
+
+.kartina-1 {
+    margin-left: 170px;
+    position: absolute;
+    z-index: -1;
+    margin-top: -270px;
+}
+
+.harf-1 {
+    font-family: nunito sans;
+    color: #FFCCBC;
+    font-weight: 900;
+    font-size: 120px;
+    text-align: center;
+}
+
+.harf2 {
+    font-family: nunito sans;
+    font-weight: 900;
+    font-size: 120px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-image: linear-gradient(180deg, #0B4141 45.83%, #0B1F1F 45.84%);
+    background-clip: text;
+    color: transparent;
+    /* Ensure the text itself is transparent so the background gradient shows */
+
+}
+
+.fon2 {
+    background-image: url('./Cornelia\ Confettis\ \(1\).png');
+    width: 100%;
+    height: 800px;
+    background-color: var(--pushti);
+    margin-top: 300px;
+}
+
+.yozuv {
+    font-family: nunito sans;
+    font-weight: 400;
+    font-size: 80px;
+    padding-top: 164px;
+    color: white;
+    text-align: center;
+}
+
+.text-01 {
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+
+.kichiki {
+    width: 800px;
+    margin-left: 346px;
+    margin-top: 23px;
+    height: 193px;
+}
+
+.sect-3 {
+    background-color: var(--yashil);
+    width: 100%;
+    height: 800px;
+}
+
+.yozuv-2 {
+    font-family: Nunito Sans;
+    font-weight: 900;
+    font-size: 68px;
+    color: var(--pushti);
+    padding-top: 118px;
+}
+
+.text-02 {
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--pushti);
+    margin-top: 20px;
+}
+
+.tanla {
+    margin-left: 94px;
+}
+
+.btn2 {
+    font-family: Nunito Sans;
+    font-weight: 700;
+    font-size: 18px;
+    width: 291px;
+    border: 3px solid var(--pushti);
+    border-radius: 30px;
+    background-color: var(--yashil);
+    color: var(--pushti);
+    height: 54px;
+    margin-top: 48px;
+}
+
+.soya {
+    margin-left: 800px;
+    margin-top: -757px;
+}
+
+.oq {
+    display: flex;
+    margin-left: 800px;
+    margin-top: -605px;
+}
+
+.kartina-2 {
+    margin-top: 96px;
+}
+
+.rasm-text {
+    margin-left: 816px;
+    margin-top: -600px;
+}
+
+.yozuv-3 {
+    font-family: Nunito Sans;
+    font-weight: 900;
+    font-size: 68px;
+    color: var(--pushti);
+}
+
+.text-03 {
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--yashil);
+    margin-top: 25px;
+}
+
+.btn-3 {
+    width: 227px;
+    height: 24px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--yashil);
+    margin-top: 49px;
+    margin-left: 39px;
+    border: none;
+    background-color: white;
+}
+
+
+.kartina-3 {
+    margin-left: 770px;
+    margin-top: -450px;
+}
+
+.yozuv-4 {
+    font-family: Nunito Sans;
+    font-weight: 900;
+    font-size: 68px;
+    color: var(--yashil);
+}
+
+.text-04 {
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--yashil);
+    margin-top: 25px;
+}
+
+.rasm-text2 {
+    margin-top: 200px;
+    margin-left: 169px;
+}
+
+.youzv-5 {
+    font-family: nunito sans;
+    font-weight: 900;
+    font-size: 80px;
+    color: var(--pushti);
+    text-align: center;
+}
+
+.text-05 {
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--yashil);
+    text-align: center;
+}
+
+.karobkachi {
+    width: 800px;
+    margin-left: 346px;
+    margin-top: 23px;
+    height: 193px;
+}
+
+.pastga {
+    margin-top: 230px;
+}
+
+.sect-6 {
+    background-color: whitesmoke;
+}
+
+.horse {
+    display: flex;
+    margin-left: 50px;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.fon {
+    background-image: url('./Group 114.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+
+}
+
+.they {
+    font-family: Nunito Sans;
+    color: white;
+    font-weight: 900;
+    font-size: 68px;
+    text-align: center;
+}
+
+.otlar-22 {
+    background-image: url('./Cornelia\ Confettis.png');
+    width: 100%;
+    height: 1000px;
+}
+
+.white-1 {
+    background-color: white;
+    width: 304px;
+    height: 154px;
+    border-radius: 10px;
+}
+
+.ikta {
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.rasm1 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.white-2 {
+    margin-top: 24px;
+    background-color: white;
+    width: 304px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.ikta-2 {
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.rasm2 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.white-3 {
+    margin-top: 24px;
+    background-color: white;
+    width: 304px;
+    height: 260px;
+    border-radius: 10px;
+}
+
+.ikta-3 {
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.rasm3 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.white-4 {
+    margin-top: 24px;
+    background-color: white;
+    width: 304px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.ikta-4 {
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.rasm4 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.wrapper {
+    margin-left: 240px;
+    margin-top: 64px;
+}
+
+.white-5 {
+    margin-top: 24px;
+    background-color: white;
+    width: 304px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.ikta-5 {
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.rasm5 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.white-6 {
+    background-color: white;
+    width: 304px;
+    height: 200px;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+.ikta-6 {
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.rasm6 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.wrapper-2 {
+    margin-left: 580px;
+    margin-top: -790px;
+    border-radius: 20x;
+}
+
+.white-7 {
+    margin-top: 50px;
+    background-color: white;
+    width: 304px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.ikta-7 {
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.rasm7 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.white-8 {
+    margin-top: 60px;
+    background-color: white;
+    width: 304px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.text-88 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.ikta-8 {
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.rasm8 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.white-9 {
+    margin-top: 60px;
+    background-color: white;
+    width: 304px;
+    height: 370px;
+    border-radius: 10px;
+}
+
+.ikta-9 {
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.rasm9 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.white-10 {
+    margin-top: 70px;
+    background-color: white;
+    width: 304px;
+    height: 370px;
+    border-radius: 10px;
+}
+
+.ikta-10 {
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.rasm10 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.wrapper3 {
+    margin-left: 350px;
+    margin-top: -820px;
+}
+
+.yagona {
+    margin-top: 450px;
+    margin-left: -270px;
+}
+
+.rasm-text77 {
+    margin-left: 816px;
+    margin-top: -600px;
+}
+
+.yozuv-6 {
+    font-family: Nunito Sans;
+    font-weight: 900;
+    font-size: 68px;
+    color: var(--yashil);
+}
+
+.text-06 {
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--yashil);
+    margin-top: 25px;
+}
+
+.btn-4 {
+    width: 225px;
+    height: 54px;
+    color: var(--yashil);
+    border: 3px solid var(--yashil);
+    background-color: white;
+    border-radius: 30px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 55px;
+}
+
+.kartina-5 {
+    margin-left: 347px;
+    margin-top: -400px;
+}
+
+.appstore {
+    margin-top: 514px;
+    margin-left: 160px;
+}
+
+.app {
+    margin-left: 150px;
+}
+
+.yozuv-8 {
+    font-family: Nunito Sans;
+    font-weight: 900;
+    font-size: 68px;
+    color: var(--yashil);
+}
+
+.text-101 {
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--yashil);
+    margin-top: 25px;
+}
+
+.btn-5 {
+    width: 225px;
+    height: 54px;
+    color: var(--yashil);
+    border: 3px solid var(--yashil);
+    background-color: white;
+    border-radius: 30px;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 55px;
+}
+
+.one {
+    width: 264px;
+    height: 82px;
+    border: 4px solid var(--pushti);
+    border-bottom: none;
+    border-radius: 60px;
+}
+
+.one2 {
+    width: 264px;
+    height: 82px;
+    border: 4px solid var(--pushti);
+    border-bottom: none;
+    border-radius: 60px;
+}
+
+footer {
+    width: 100%;
+    height: 800px;
+    background-color: var(--yashil);
+}
+
+.forev {
+    margin-left: 74px;
+    margin-top: -40px;
+    color: var(--pushti);
+}
+
+.figma {
+    margin-top: 21px;
+    margin-left: 40px;
+}
+
+.yozuv99 {
+    font-family: nunito sans;
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center;
+    color: var(--pushti);
+    padding-top: 235px;
+}
+
+.corn {
+    width: 700px;
+    margin-left: 400px;
+}
+
+.forev2 {
+    margin-left: 80px;
+    margin-top: -40px;
+    color: var(--pushti);
+}
+
+.olmos {
+    margin-top: 21px;
+    margin-left: 40px;
+}
+
+.two {
+    display: flex;
+    gap: 45px;
+    margin-top: 48px;
+    margin-left: 433px;
+}
+
+.ali {
+    font-family: nunito sans;
+    font-weight: 900;
+    color: var(--pushti);
+    font-size: 20px;
+}
+
+.deign {
+    font-family: Nunito Sans;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--pushti);
+}
+.oxo{
+    margin-top: 96px;
+    margin-left: 96px;
+}
